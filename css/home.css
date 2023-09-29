@@ -1,0 +1,241 @@
+
+/**
+ * Images a now responsive
+ */
+
+img {
+	max-width: 85%;
+	height: auto;
+}
+
+/**
+ * Limit the container in
+ * width for big screens
+ */
+.container {
+	width: 95%;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+
+.main-header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.main-nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+
+.main-nav li {
+	display: inline;
+}
+
+.main-nav a {
+	display: inline-block;
+	font-size: 0.95em;
+	font-weight: 600;
+	padding: .5em 1.5em;
+}
+
+/* Align the left-nav and right-nav */
+.left-nav,
+.right-nav {
+	display: flex;
+	align-items: center;
+
+}
+
+/* Add space between the left-nav and right-nav */
+.left-nav {
+	margin-right: auto;
+	/* Pushes it to the left */
+}
+
+/* Style the "Donate" link or text */
+.right-nav a {
+	color: #262633;
+	/* Text color */
+	text-decoration: none;
+	/* Remove underline */
+}
+
+/* Adjust the spacing between elements */
+.main-header .container {
+	justify-content: space-between;
+	/* Distribute space between elements */
+}
+
+section {
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding-top: 20px;
+}
+
+.body-text-content {
+	margin: auto;
+	max-width: 800px;
+	font-size: 2.75em;
+	line-height: 1.25em;
+	font-weight: bolder;
+	padding-top: 50px;
+}
+
+.button-getFreeAsset {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 220px;
+	height: 40px;
+	background: linear-gradient(0deg, #7C5EC6 0%, #B073F0 100%);
+	border-radius: 5px;
+	font-weight: 600;
+	color: aliceblue;
+	box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+	margin: 50px auto 30px auto;
+	cursor: pointer;
+
+}
+
+.more-option {
+	font-weight: bold;
+}
+
+.Dream-friends {
+	margin-top: 130px;
+	margin-bottom: 50px;
+	display: flex;
+	padding: 20px;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.donator-logo {
+	margin: 0 25px   0 25px;
+	opacity: 50%;
+}
+
+.info{
+	margin-bottom: 70px;
+}
+.create-together{
+	width: 100%;
+	padding: 150px 0  70px 0;
+	background: transparent linear-gradient(0deg, #b273f3 0%, #7b5cc5 100%) 0% 0% no-repeat padding-box;
+}
+.create-together-content{
+	width: 60%;
+	margin: auto;
+}
+.create-together-content-img{
+	width: 50%;
+	height: 50%;
+}
+.create-together-content-headText{
+	font-size: 40px;
+	font-weight: 900;
+}
+.create-together-content-text{
+	font-weight: 600;
+	letter-spacing: .5px;
+}
+.SeeTools-button{
+	cursor: pointer;
+	margin: 50px auto   50px auto;
+	width: 175px;
+	height: 40px;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	color: #262633 !important;
+    background: linear-gradient(0deg, #d2d2d7 0%, #EEF4F7 100%);
+    border-color: #a6a9ab !important;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.15);
+}
+.subscribe{
+	width: 100%;
+	padding: 150px 0  70px 0;
+	background: #EEF4F7;
+}
+.email-text-box{
+	width: 400px;
+	padding: 0.75em;
+	border: none;
+	border-radius: 0.3em;
+	font-size: 1em;
+    box-shadow: 0px 3px 4px #26263340;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.email-check-box-text{
+	font-weight: 600;
+}
+.scurity-info{
+	color: #a6a9ab;
+	margin: auto;
+	width: 350px;
+	font-size: 14px;
+}
+.scurity-info-a{
+	color: #a6a9ab;
+	text-decoration: underline;
+}
+.join-community{
+	background: transparent linear-gradient(0deg, #ff8d00 0%, #ffA500 100%) 0% 0% no-repeat padding-box;
+}
+.join-community-content-img{
+	width: 30%;
+	height: 30%;
+}
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.4px;
+}
+.footer-left-side>a{
+	margin-right: 5px;
+	color: #a6a9ab;
+	padding-right: 5px;
+}
+.border{
+	border-right: 0.5px solid #a6a9ab;
+}
+/*=========media=========*/
+@media (min-width: 95%) {
+	/* .main-header .container {
+		justify-content: space-evenly;
+	} */
+}
+
+/*=========hover=========*/
+.button:hover {
+	background: #3F3F51;
+	border-color: #131319 !important;
+}
+.button:hover>span {
+	color: aliceblue;
+}
+.donator-logo:hover {
+	opacity: 100%;
+}
+.mian-menu:hover>a{
+	text-decoration: underline;
+	color: crimson;
+}
+/*=========hover=========*/
