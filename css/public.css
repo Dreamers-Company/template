@@ -1,0 +1,26 @@
+body{
+    background-color: #eef4f7;
+    margin: 0;
+    padding: 0;
+}
+.text-color {
+	color: #262633;
+}
+.text-color-white{
+	color: aliceblue;
+}
+.center-texts{
+	text-align: center;
+}
+a,div,p,h1,h3,span{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+    font-family: 'Noto Sans', sans-serif;
+    color: #00000075;
+    padding: 3em 3em;
+}
+/*========hover========*/
+
+/*========hover========*/
